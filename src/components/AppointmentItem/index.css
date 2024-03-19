@@ -1,0 +1,29 @@
+.list-item {
+  list-style-type: none;
+  border: 1px solid #b5b7c4;
+  height: 60px;
+  width: 180px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.title-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  color: #171f46;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.star-button {
+  border: none;
+  background-color: transparent;
+}
